@@ -1,0 +1,149 @@
+/* Stylesheet for DropdownMenu component */
+
+/* Styling for the container */
+/* Stylesheet for DropdownMenu component */
+
+/* Styling for the container */
+
+.full-container {
+  margin-top: -100px;
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap onto the next line if there's not enough space */
+  gap: 4px; /* Spacing between each item */
+  align-items: center; /* Align items vertically in the center *//* Distributes space between and around content items */
+}
+
+.dropdown-container {
+    padding: 20px;
+    font-size: small;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: inline-block; /* Adjust as needed */
+  }
+
+  .search-button {
+    padding: 10px 15px;
+    height: 54px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    width: 8%; /* Ensures full width inside the parent container */
+  }
+
+  .search-button {
+    background-color: #4186C5; /* Example color, change as needed */
+    color: white;
+    cursor: pointer;
+    border-color: #4186C5;
+  }
+  
+  /* Hover and focus effects for the button */
+  .search-button:hover, .search-button:focus {
+    background-color: #0056b3; /* Darker shade for hover, adjust as needed */
+    border-color: #0056b3;
+  }
+  
+  /* Styling for the dropdown select element */
+  .dropdown-container select {
+    padding: 10px 15px;
+    font-size: 15px;
+    min-width: 170px;
+    height: 54px;
+    color: #333;
+    background-color: #696969;
+    border: 2px solid #959595;
+    border-radius: 5px;
+    outline: none;
+    appearance: none; /* Removes default styling */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Add a background image for the dropdown arrow */
+  .dropdown-container select {
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048"><path d="M2048 384v128H0V384h2048zm0 640v128H0v-128h2048zm0 640v128H0v-128h2048z" fill="%23333"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%;
+    background-size: 12px;
+  }
+  
+  /* Hover effect for the dropdown */
+  .dropdown-container select:hover {
+    border-color: #959595;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+
+
+/* Common styles for both dropdown and search input */
+.input-common {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #fff;
+    border: 2px solid #959595;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  /* Styling for the search input */
+  .search-input {
+    width: 100%;  /* Adjust width as needed */
+    height: 30px;
+    margin-bottom: 20px; /* Spacing between search input and dropdown */
+    background-color: #696969;
+  }
+  
+  /* Hover and focus effect for the search input */
+  .search-input:hover, .search-input:focus {
+    border-color: #bbb;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling for the dropdown select element */
+  .dropdown-container select {
+    cursor: pointer;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048"><path d="M2048 384v128H0V384h2048zm0 640v128H0v-128h2048zm0 640v128H0v-128h2048z" fill="%23333"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%;
+    background-size: 12px;
+  }
+  
+  /* Styling for the container */
+  .container {
+    padding: 20px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .border {
+    height: 1px;
+    width: 100%;
+    background-color: #696969;
+  }
+
+  .search-container {
+    padding: 20px;
+  }
+
+  .heading {
+    padding-left: 30px;
+    color: #fff;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 800;
+  }
